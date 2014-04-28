@@ -259,7 +259,7 @@ def Gly_Sign(data):
         protein_seqs.append([])
         sequence = ""
         for i in range(0,len(protein_lst[k])):
-            if  i < len(protein_lst[k])-2 and protein_lst[k][i] == "k":
+            if  i < len(protein_lst[k])-2 and protein_lst[k][i] == "n":
                 if protein_lst[k][i+1] != "p"and protein_lst[k][i+1] != "|":
                     if protein_lst[k][i+2] == "s" or protein_lst[k][i+2] == "t":
                         protein_lst[k][i] = protein_lst[k][i].upper()
